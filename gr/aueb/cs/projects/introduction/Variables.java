@@ -8,7 +8,10 @@ public class Variables {
 
         System.out.println(x);
         x += 1;
+        // x = (byte) (x + 1);
         System.out.println(x);
+        String s = "Hello World";
+        System.out.println(s.charAt(2));
 
         // precision loss
         double d = 3.14;
@@ -27,6 +30,7 @@ public class Variables {
             Αν θέλουμε float, πρέπει να το δηλώσουμε.
          */
         precisionLoss();
+
     }
 
     static void precisionLoss(){
@@ -47,6 +51,7 @@ public class Variables {
             System.out.println("\nΠΡΟΣΟΧΗ: Οι τιμές ΔΕΝ είναι ίσες!");
             System.out.println("Διαφορά: " + (originalInt - backToInt));
         }
+
     }
 
 
