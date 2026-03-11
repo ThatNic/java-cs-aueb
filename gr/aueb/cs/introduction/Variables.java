@@ -1,4 +1,4 @@
-package gr.aueb.cs.projects.introduction;
+package gr.aueb.cs.introduction;
 
 public class Variables {
 
