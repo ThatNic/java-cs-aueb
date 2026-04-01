@@ -4,7 +4,7 @@ class Human
 {
     boolean alive;
     int age=0;
-    private String name;
+    protected String name;
 
 
     public void setName(String name){
@@ -39,5 +39,14 @@ class Human
         h.name = "";
         System.out.println(h.name); // print a field
         h.speak();
+    }
+}
+
+class SuperHuman extends Human{
+
+    public static void main(String[] args){
+        SuperHuman h = new SuperHuman();
+        System.out.println(h.age);
+        System.out.println(h.name);
     }
 }
